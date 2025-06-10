@@ -17,9 +17,9 @@ export default function Navbar() {
       <nav className="max-w-7xl mx-auto ">
         <div className="flex justify-between items-center ">
           {/* Logo */}
-          <div>
-            <Link href="/" className={`text-2xl font-bold ${pathname === "/" ? "text-primary" : ""}`}>
-              Villa
+          <div >
+            <Link href="/" className={`text-2xl font-bold text-primary ${pathname === "/" ? "  text-primary " : ""}`}>
+              Go Villa
             </Link>
           </div>
 

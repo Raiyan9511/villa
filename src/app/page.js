@@ -506,7 +506,7 @@ const openModal = (room) => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, amount: 0.2 }}
           transition={{
-            duration: 0.5,
+            duration: 0.1/5,
             ease: "easeOut",
             delay: index * 0.2,
           }}

@@ -53,7 +53,7 @@ const handleChange = (e) => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    const whatsappNumber = "919029511259"; 
+    const whatsappNumber = "918554990746"; 
     const message = `Booking Request:
 First Name: ${formData.firstName}
 Last Name: ${formData.lastName}
@@ -92,7 +92,7 @@ Check-Out Date: ${formData.checkOut}`;
           <form onSubmit={handleSubmit} className="space-y-6">
             <div className="grid grid-cols-1 gap-6 sm:grid-cols-2">
               <div>
-                <label htmlFor="firstName" className="block text-sm font-medium text-gray-700">
+                <label htmlFor="firstName" className="block text-sm cursor-pointer font-medium text-gray-700">
                   First Name *
                 </label>
                 <input
@@ -107,7 +107,7 @@ Check-Out Date: ${formData.checkOut}`;
               </div>
 
               <div>
-                <label htmlFor="lastName" className="block text-sm font-medium text-gray-700">
+                <label htmlFor="lastName" className="block text-sm cursor-pointer font-medium text-gray-700">
                   Last Name *
                 </label>
                 <input
@@ -123,7 +123,7 @@ Check-Out Date: ${formData.checkOut}`;
             </div>
 
             <div>
-              <label htmlFor="mobile" className="block text-sm font-medium text-gray-700">
+              <label htmlFor="mobile" className="block text-sm font-medium cursor-pointer text-gray-700">
                 Mobile Number *
               </label>
               <input
@@ -138,7 +138,7 @@ Check-Out Date: ${formData.checkOut}`;
             </div>
 
             <div>
-              <label htmlFor="email" className="block text-sm font-medium text-gray-700">
+              <label htmlFor="email" className="block text-sm font-medium cursor-pointer text-gray-700">
                 Email (Optional)
               </label>
               <input
@@ -153,7 +153,7 @@ Check-Out Date: ${formData.checkOut}`;
 
             <div className="grid grid-cols-1 gap-6 sm:grid-cols-2">
               <div>
-                <label htmlFor="checkIn" className="block text-sm font-medium text-gray-700">
+                <label htmlFor="checkIn" className="block text-sm font-medium  text-gray-700">
                   Check-In Date *
                 </label>
                 <input
@@ -163,7 +163,7 @@ Check-Out Date: ${formData.checkOut}`;
                   value={formData.checkIn}
                   onChange={handleChange}
                   required
-                  className="mt-1 block w-full text-gray-700 rounded-md border-gray-300 shadow-sm focus:border-primary focus:ring focus:ring-primary/50 p-2 border"
+                  className="mt-1 block w-full text-gray-700 rounded-md cursor-pointer border-gray-300 shadow-sm focus:border-primary focus:ring focus:ring-primary/50 p-2 border"
                 />
               </div>
 
@@ -178,7 +178,7 @@ Check-Out Date: ${formData.checkOut}`;
                   value={formData.checkOut}
                   onChange={handleChange}
                   required
-                  className="mt-1 block w-full text-gray-700 rounded-md border-gray-300 shadow-sm focus:border-primary focus:ring focus:ring-primary/50 p-2 border"
+                  className="mt-1 block w-full text-gray-700 rounded-md cursor-pointer border-gray-300 shadow-sm focus:border-primary focus:ring focus:ring-primary/50 p-2 border"
                 />
               </div>
             </div>
@@ -186,7 +186,7 @@ Check-Out Date: ${formData.checkOut}`;
             <div>
               <button
                 type="submit"
-                className="w-full flex justify-center py-3 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-primary hover:bg-secondary focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary transition-colors duration-300"
+                className="w-full flex cursor-pointer justify-center py-3 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-primary hover:bg-secondary focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary transition-colors duration-300"
               >
                 Submit Booking Request
               </button>
