@@ -110,7 +110,7 @@ export default function Footer() {
 
       {/* Bottom Text */}
       <div className="text-center py-4 text-sm bg-secondary/80 text-gray-900 dark:text-white" >
-        © {new Date().getFullYear()} Go Villa. All rights reserved.
+        © {new Date().getFullYear()} Your Villa. All rights reserved.
       </div>
     </footer>
   );

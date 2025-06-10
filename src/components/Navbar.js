@@ -19,7 +19,7 @@ export default function Navbar() {
           {/* Logo */}
           <div >
             <Link href="/" className={`text-2xl font-bold text-primary ${pathname === "/" ? "  text-primary " : ""}`}>
-              Go Villa
+              Your Villa
             </Link>
           </div>
 
